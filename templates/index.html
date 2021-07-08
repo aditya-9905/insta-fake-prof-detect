@@ -44,16 +44,17 @@
             <div class="col-md-12">
                 <form name="passdata" action="." method="post" id="myForm">
                     <input type="number" placeholder="User Follower Count" id="firstName" name="userfollowercount"
-                        required title="The number of followers in your Instagram account." />
+                        required title="The number of followers in your Instagram account." min="0" max="" />
 
                     <input type="number" placeholder="User Following Count" id="firstName1" name="userfollowingcount"
-                        required title="The number of accounts you follow from your Instagram account." />
+                        required title="The number of accounts you follow from your Instagram account." min="0"
+                        max="" />
 
                     <input type="number" placeholder="User Biography Length" id="firstName2" name="userbiographylength"
-                        required title="The length of your Instagram account's Bio." />
+                        required title="The length of your Instagram account's Bio." min="0" max="" />
 
                     <input type="number" placeholder="User Media Count" id="firstName3" name="usermediacount" required
-                        title="The total number of posts made from your Instagram account." />
+                        title="The total number of posts made from your Instagram account." min="0" max="" />
 
                     <input type="number" placeholder="User has a Profile Picture" min="0" max="1" id="firstName4"
                         name="userhasprofilepic" required
@@ -64,10 +65,11 @@
                         title="If your Instagram account is private, type 1 or else type 0." />
 
                     <input type="number" placeholder="Username Digit Count" id="firstName6" name="usernamedigitcount"
-                        required title="The number of numerical digits present in your Instagram account's username." />
+                        required title="The number of numerical digits present in your Instagram account's username."
+                        min="0" max="" />
 
                     <input type="number" placeholder="Username Length" id="firstName7" name="usernamelength" required
-                        title="The length of your Instagram account's username." />
+                        title="The length of your Instagram account's username." min="0" max="" />
 
                     <button type="submit" value="submit">SUBMIT</button>
                 </form>
